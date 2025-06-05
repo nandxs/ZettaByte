@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Dashboard window -->
+  <rect x="100" y="50" width="600" height="500" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- Dashboard header -->
+  <rect x="100" y="50" width="600" height="60" fill="#1e3799" rx="5" ry="5"/>
+  <text x="150" y="85" font-family="Arial" font-size="18" fill="#ffffff" font-weight="bold">FinanceZetta - Sistema de Análise Financeira</text>
+  
+  <!-- User profile -->
+  <circle cx="650" cy="80" r="15" fill="#ffffff"/>
+  <path d="M650 75 Q650 70 655 75 Q660 70 660 75 L660 85 Q655 90 650 85 Q645 90 640 85 Z" fill="#1e3799"/>
+  
+  <!-- Sidebar -->
+  <rect x="100" y="110" width="150" height="440" fill="#f1f2f6"/>
+  
+  <!-- Menu items -->
+  <rect x="110" y="130" width="130" height="40" fill="#1e3799" rx="5" ry="5"/>
+  <text x="140" y="155" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="left">Dashboard</text>
+  
+  <rect x="110" y="180" width="130" height="40" fill="#f1f2f6" rx="5" ry="5" stroke="#dfe4ea" stroke-width="1"/>
+  <text x="140" y="205" font-family="Arial" font-size="12" fill="#2f3542" text-anchor="left">Relatórios</text>
+  
+  <rect x="110" y="230" width="130" height="40" fill="#f1f2f6" rx="5" ry="5" stroke="#dfe4ea" stroke-width="1"/>
+  <text x="140" y="255" font-family="Arial" font-size="12" fill="#2f3542" text-anchor="left">Transações</text>
+  
+  <rect x="110" y="280" width="130" height="40" fill="#f1f2f6" rx="5" ry="5" stroke="#dfe4ea" stroke-width="1"/>
+  <text x="140" y="305" font-family="Arial" font-size="12" fill="#2f3542" text-anchor="left">Orçamentos</text>
+  
+  <rect x="110" y="330" width="130" height="40" fill="#f1f2f6" rx="5" ry="5" stroke="#dfe4ea" stroke-width="1"/>
+  <text x="140" y="355" font-family="Arial" font-size="12" fill="#2f3542" text-anchor="left">Investimentos</text>
+  
+  <rect x="110" y="380" width="130" height="40" fill="#f1f2f6" rx="5" ry="5" stroke="#dfe4ea" stroke-width="1"/>
+  <text x="140" y="405" font-family="Arial" font-size="12" fill="#2f3542" text-anchor="left">Configurações</text>
+  
+  <!-- Main content -->
+  <rect x="260" y="120" width="430" height="420" fill="#ffffff"/>
+  
+  <!-- Summary cards -->
+  <rect x="270" y="130" width="130" height="90" fill="#ffffff" stroke="#dfe4ea" stroke-width="1" rx="5" ry="5"/>
+  <text x="290" y="155" font-family="Arial" font-size="12" fill="#2f3542">Receitas</text>
+  <text x="290" y="185" font-family="Arial" font-size="18" fill="#2ed573" font-weight="bold">R$ 45.789,00</text>
+  <path d="M290 195 L320 195" stroke="#dfe4ea" stroke-width="1"/>
+  <text x="290" y="210" font-family="Arial" font-size="10" fill="#2ed573">+12% este mês</text>
+  
+  <rect x="410" y="130" width="130" height="90" fill="#ffffff" stroke="#dfe4ea" stroke-width="1" rx="5" ry="5"/>
+  <text x="430" y="155" font-family="Arial" font-size="12" fill="#2f3542">Despesas</text>
+  <text x="430" y="185" font-family="Arial" font-size="18" fill="#ff6b81" font-weight="bold">R$ 32.456,00</text>
+  <path d="M430 195 L460 195" stroke="#dfe4ea" stroke-width="1"/>
+  <text x="430" y="210" font-family="Arial" font-size="10" fill="#ff6b81">+5% este mês</text>
+  
+  <rect x="550" y="130" width="130" height="90" fill="#ffffff" stroke="#dfe4ea" stroke-width="1" rx="5" ry="5"/>
+  <text x="570" y="155" font-family="Arial" font-size="12" fill="#2f3542">Saldo</text>
+  <text x="570" y="185" font-family="Arial" font-size="18" fill="#1e3799" font-weight="bold">R$ 13.333,00</text>
+  <path d="M570 195 L600 195" stroke="#dfe4ea" stroke-width="1"/>
+  <text x="570" y="210" font-family="Arial" font-size="10" fill="#1e3799">+8% este mês</text>
+  
+  <!-- Chart title -->
+  <text x="290" y="250" font-family="Arial" font-size="16" fill="#2f3542" font-weight="bold">Análise Financeira - 2023</text>
+  
+  <!-- Line chart -->
+  <rect x="270" y="260" width="410" height="200" fill="#ffffff" stroke="#dfe4ea" stroke-width="1" rx="5" ry="5"/>
+  
+  <!-- Chart axes -->
+  <path d="M290 440 L650 440" stroke="#a4b0be" stroke-width="1"/>
+  <path d="M290 440 L290 280" stroke="#a4b0be" stroke-width="1"/>
+  
+  <!-- X-axis labels -->
+  <text x="320" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Jan</text>
+  <text x="350" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Fev</text>
+  <text x="380" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Mar</text>
+  <text x="410" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Abr</text>
+  <text x="440" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Mai</text>
+  <text x="470" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Jun</text>
+  <text x="500" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Jul</text>
+  <text x="530" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Ago</text>
+  <text x="560" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Set</text>
+  <text x="590" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Out</text>
+  <text x="620" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Nov</text>
+  <text x="650" y="455" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="middle">Dez</text>
+  
+  <!-- Y-axis labels -->
+  <text x="280" y="440" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="end">0</text>
+  <text x="280" y="400" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="end">10k</text>
+  <text x="280" y="360" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="end">20k</text>
+  <text x="280" y="320" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="end">30k</text>
+  <text x="280" y="280" font-family="Arial" font-size="10" fill="#2f3542" text-anchor="end">40k</text>
+  
+  <!-- Revenue line -->
+  <path d="M320 400 L350 380 L380 390 L410 370 L440 350 L470 330 L500 340 L530 320 L560 300 L590 290 L620 280 L650 290" stroke="#2ed573" stroke-width="2" fill="none"/>
+  <circle cx="320" cy="400" r="3" fill="#2ed573"/>
+  <circle cx="350" cy="380" r="3" fill="#2ed573"/>
+  <circle cx="380" cy="390" r="3" fill="#2ed573"/>
+  <circle cx="410" cy="370" r="3" fill="#2ed573"/>
+  <circle cx="440" cy="350" r="3" fill="#2ed573"/>
+  <circle cx="470" cy="330" r="3" fill="#2ed573"/>
+  <circle cx="500" cy="340" r="3" fill="#2ed573"/>
+  <circle cx="530" cy="320" r="3" fill="#2ed573"/>
+  <circle cx="560" cy="300" r="3" fill="#2ed573"/>
+  <circle cx="590" cy="290" r="3" fill="#2ed573"/>
+  <circle cx="620" cy="280" r="3" fill="#2ed573"/>
+  <circle cx="650" cy="290" r="3" fill="#2ed573"/>
+  
+  <!-- Expenses line -->
+  <path d="M320 420 L350 410 L380 420 L410 400 L440 390 L470 380 L500 390 L530 370 L560 360 L590 350 L620 340 L650 330" stroke="#ff6b81" stroke-width="2" fill="none"/>
+  <circle cx="320" cy="420" r="3" fill="#ff6b81"/>
+  <circle cx="350" cy="410" r="3" fill="#ff6b81"/>
+  <circle cx="380" cy="420" r="3" fill="#ff6b81"/>
+  <circle cx="410" cy="400" r="3" fill="#ff6b81"/>
+  <circle cx="440" cy="390" r="3" fill="#ff6b81"/>
+  <circle cx="470" cy="380" r="3" fill="#ff6b81"/>
+  <circle cx="500" cy="390" r="3" fill="#ff6b81"/>
+  <circle cx="530" cy="370" r="3" fill="#ff6b81"/>
+  <circle cx="560" cy="360" r="3" fill="#ff6b81"/>
+  <circle cx="590" cy="350" r="3" fill="#ff6b81"/>
+  <circle cx="620" cy="340" r="3" fill="#ff6b81"/>
+  <circle cx="650" cy="330" r="3" fill="#ff6b81"/>
+  
+  <!-- Legend -->
+  <rect x="500" y="240" width="12" height="12" fill="#2ed573"/>
+  <text x="520" y="250" font-family="Arial" font-size="12" fill="#2f3542">Receitas</text>
+  
+  <rect x="580" y="240" width="12" height="12" fill="#ff6b81"/>
+  <text x="600" y="250" font-family="Arial" font-size="12" fill="#2f3542">Despesas</text>
+  
+  <!-- Pie chart -->
+  <text x="290" y="490" font-family="Arial" font-size="14" fill="#2f3542" font-weight="bold">Distribuição de Despesas</text>
+  
+  <!-- Pie chart segments -->
+  <path d="M320 520 L320 480 A40 40 0 0 1 354 500 Z" fill="#ff6b81"/>
+  <path d="M320 520 L354 500 A40 40 0 0 1 340 552 Z" fill="#5352ed"/>
+  <path d="M320 520 L340 552 A40 40 0 0 1 280 540 Z" fill="#ffa502"/>
+  <path d="M320 520 L280 540 A40 40 0 0 1 290 488 Z" fill="#2ed573"/>
+  <path d="M320 520 L290 488 A40 40 0 0 1 320 480 Z" fill="#1e90ff"/>
+  
+  <!-- Pie chart legend -->
+  <rect x="380" y="490" width="10" height="10" fill="#ff6b81"/>
+  <text x="395" y="500" font-family="Arial" font-size="10" fill="#2f3542">Moradia (30%)</text>
+  
+  <rect x="380" y="510" width="10" height="10" fill="#5352ed"/>
+  <text x="395" y="520" font-family="Arial" font-size="10" fill="#2f3542">Alimentação (25%)</text>
+  
+  <rect x="380" y="530" width="10" height="10" fill="#ffa502"/>
+  <text x="395" y="540" font-family="Arial" font-size="10" fill="#2f3542">Transporte (20%)</text>
+  
+  <rect x="500" y="490" width="10" height="10" fill="#2ed573"/>
+  <text x="515" y="500" font-family="Arial" font-size="10" fill="#2f3542">Lazer (15%)</text>
+  
+  <rect x="500" y="510" width="10" height="10" fill="#1e90ff"/>
+  <text x="515" y="520" font-family="Arial" font-size="10" fill="#2f3542">Outros (10%)</text>
+</svg>

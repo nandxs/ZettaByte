@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Office environment -->
+  <rect x="50" y="150" width="700" height="350" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- Window -->
+  <rect x="600" y="180" width="120" height="200" fill="#e1f5fe" stroke="#b3e5fc" stroke-width="2" rx="2" ry="2"/>
+  <line x1="660" y1="180" x2="660" y2="380" stroke="#b3e5fc" stroke-width="2"/>
+  <line x1="600" y1="280" x2="720" y2="280" stroke="#b3e5fc" stroke-width="2"/>
+  
+  <!-- Office desk 1 -->
+  <rect x="100" y="300" width="200" height="80" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2" rx="2" ry="2"/>
+  <rect x="120" y="380" width="160" height="10" fill="#e0e0e0" rx="1" ry="1"/>
+  
+  <!-- Computer 1 -->
+  <rect x="150" y="260" width="100" height="70" fill="#424242" stroke="#212121" stroke-width="2" rx="2" ry="2"/>
+  <rect x="160" y="270" width="80" height="50" fill="#2196f3" rx="1" ry="1"/>
+  
+  <!-- Code on screen 1 -->
+  <text x="170" y="285" font-family="monospace" font-size="5" fill="#ffffff">function init() {</text>
+  <text x="170" y="295" font-family="monospace" font-size="5" fill="#ffffff">  const app = new App();</text>
+  <text x="170" y="305" font-family="monospace" font-size="5" fill="#ffffff">  app.start();</text>
+  <text x="170" y="315" font-family="monospace" font-size="5" fill="#ffffff">}</text>
+  
+  <!-- Keyboard 1 -->
+  <rect x="170" y="335" width="60" height="20" fill="#616161" stroke="#424242" stroke-width="1" rx="2" ry="2"/>
+  
+  <!-- Person 1 (developer) -->
+  <circle cx="200" cy="230" r="20" fill="#ffccbc"/>
+  <path d="M190 225 Q200 220 210 225" stroke="#424242" stroke-width="1" fill="none"/>
+  <circle cx="195" cy="223" r="2" fill="#424242"/>
+  <circle cx="205" cy="223" r="2" fill="#424242"/>
+  <rect x="185" y="250" width="30" height="40" fill="#4fc3f7" rx="5" ry="5"/>
+  <rect x="185" y="290" width="12" height="25" fill="#424242" rx="2" ry="2"/>
+  <rect x="203" y="290" width="12" height="25" fill="#424242" rx="2" ry="2"/>
+  
+  <!-- Office desk 2 -->
+  <rect x="350" y="300" width="200" height="80" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2" rx="2" ry="2"/>
+  <rect x="370" y="380" width="160" height="10" fill="#e0e0e0" rx="1" ry="1"/>
+  
+  <!-- Computer 2 -->
+  <rect x="400" y="260" width="100" height="70" fill="#424242" stroke="#212121" stroke-width="2" rx="2" ry="2"/>
+  <rect x="410" y="270" width="80" height="50" fill="#4caf50" rx="1" ry="1"/>
+  
+  <!-- Code on screen 2 -->
+  <text x="420" y="285" font-family="monospace" font-size="5" fill="#ffffff">class Component {</text>
+  <text x="420" y="295" font-family="monospace" font-size="5" fill="#ffffff">  render() {</text>
+  <text x="420" y="305" font-family="monospace" font-size="5" fill="#ffffff">    return view;</text>
+  <text x="420" y="315" font-family="monospace" font-size="5" fill="#ffffff">  }</text>
+  
+  <!-- Keyboard 2 -->
+  <rect x="420" y="335" width="60" height="20" fill="#616161" stroke="#424242" stroke-width="1" rx="2" ry="2"/>
+  
+  <!-- Person 2 (developer) -->
+  <circle cx="450" cy="230" r="20" fill="#ffccbc"/>
+  <path d="M440 225 Q450 220 460 225" stroke="#424242" stroke-width="1" fill="none"/>
+  <circle cx="445" cy="223" r="2" fill="#424242"/>
+  <circle cx="455" cy="223" r="2" fill="#424242"/>
+  <rect x="435" y="250" width="30" height="40" fill="#ff7043" rx="5" ry="5"/>
+  <rect x="435" y="290" width="12" height="25" fill="#424242" rx="2" ry="2"/>
+  <rect x="453" y="290" width="12" height="25" fill="#424242" rx="2" ry="2"/>
+  
+  <!-- Whiteboard -->
+  <rect x="100" y="180" width="150" height="100" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="2" ry="2"/>
+  
+  <!-- Diagram on whiteboard -->
+  <rect x="120" y="200" width="40" height="20" fill="none" stroke="#2196f3" stroke-width="1" rx="2" ry="2"/>
+  <rect x="190" y="200" width="40" height="20" fill="none" stroke="#2196f3" stroke-width="1" rx="2" ry="2"/>
+  <rect x="155" y="240" width="40" height="20" fill="none" stroke="#2196f3" stroke-width="1" rx="2" ry="2"/>
+  <line x1="140" y1="220" x2="155" y2="240" stroke="#2196f3" stroke-width="1"/>
+  <line x1="210" y1="220" x2="195" y2="240" stroke="#2196f3" stroke-width="1"/>
+  
+  <!-- Coffee cup -->
+  <rect x="320" y="330" width="15" height="20" fill="#795548" rx="2" ry="2"/>
+  <path d="M335 335 Q340 335 340 325 L340 320 Q340 315 335 315 L335 335" fill="#795548"/>
+  <ellipse cx="327.5" cy="330" rx="7.5" ry="3" fill="#5d4037"/>
+  
+  <!-- Plant -->
+  <rect x="550" y="330" width="20" height="25" fill="#795548" rx="2" ry="2"/>
+  <path d="M560 330 C550 310 540 320 550 300 C560 320 580 310 570 300 C565 320 580 315 570 330" fill="#4caf50"/>
+  
+  <!-- Person 3 (standing) -->
+  <circle cx="300" cy="230" r="20" fill="#ffccbc"/>
+  <path d="M290 225 Q300 220 310 225" stroke="#424242" stroke-width="1" fill="none"/>
+  <circle cx="295" cy="223" r="2" fill="#424242"/>
+  <circle cx="305" cy="223" r="2" fill="#424242"/>
+  <rect x="285" y="250" width="30" height="60" fill="#9575cd" rx="5" ry="5"/>
+  <rect x="285" y="310" width="12" height="40" fill="#424242" rx="2" ry="2"/>
+  <rect x="303" y="310" width="12" height="40" fill="#424242" rx="2" ry="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="120" font-family="Arial" font-size="24" fill="#212121" text-anchor="middle" font-weight="bold">Equipe de Desenvolvimento ZettaByte</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="150" font-family="Arial" font-size="16" fill="#757575" text-anchor="middle">Transformando ideias em soluções digitais</text>
+  
+  <!-- Code floating elements -->
+  <g opacity="0.7">
+    <text x="100" y="100" font-family="monospace" font-size="10" fill="#2196f3">&lt;div class="container"&gt;</text>
+    <text x="650" y="150" font-family="monospace" font-size="10" fill="#ff9800">function render() {</text>
+    <text x="500" y="200" font-family="monospace" font-size="10" fill="#4caf50">const data = await api.get();</text>
+    <text x="300" y="450" font-family="monospace" font-size="10" fill="#9c27b0">import { Component } from 'framework';</text>
+    <text x="150" y="500" font-family="monospace" font-size="10" fill="#f44336">return &lt;App /&gt;;</text>
+    <text x="550" y="450" font-family="monospace" font-size="10" fill="#009688">export default class extends Model {</text>
+  </g>
+  <text x="400" y="80" font-family="Arial" font-size="16" fill="#7f8c8d" text-anchor="middle">Transformando ideias em código</text>
+</svg>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ZettaByte - Soluções em Tecnologia da Informação</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="Zetta.png">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="Zetta.png" alt="ZettaByte Logo">
+                <h1>ZettaByte</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portfolio">Modelos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato" class="btn-contato">Contato</a></li>
+                </ul>
+                <div class="menu-mobile">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-text">Transformando ideias em soluções digitais</h1>
+                <p>Desenvolvimento de sites e sistemas personalizados para empresas que buscam inovação e resultados.</p>
+                <div class="hero-buttons">
+                    <a href="#servicos" class="btn btn-primary">Nossos Serviços</a>
+                    <a href="#contato" class="btn btn-secondary">Fale Conosco</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="tech-illustration">
+                    <div class="code-animation" style="display: block;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas para sua presença digital</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desenvolvimento de Sites</h3>
+                    <p>Sites responsivos, modernos e otimizados para mecanismos de busca, proporcionando a melhor experiência para seus usuários.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicações Web</h3>
+                    <p>Sistemas web personalizados que automatizam processos e aumentam a produtividade da sua empresa.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce</h3>
+                    <p>Lojas virtuais completas com gestão de produtos, pagamentos e integrações com plataformas de marketplace.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Marketing Digital</h3>
+                    <p>Estratégias de marketing digital para aumentar a visibilidade da sua marca e atrair mais clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Modelos de exemplo</h2>
+                <p>Veja alguns exemplos de modelo</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="sites">Sites</button>
+                <button class="filter-btn" data-filter="sistemas">Sistemas</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="sites">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/pizzaria_website.png" alt="Website Pizzaria">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Website para Pizzaria</h3>
+                                <p>Site responsivo com cardápio online e sistema de pedidos</p>
+                                <a href="#contato" class="btn-view">Quero esse modelo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="sites">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/padaria_website.png" alt="Website Padaria">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Website para Padaria</h3>
+                                <p>Site institucional com catálogo de produtos e localização</p>
+                                <a href="#contato" class="btn-view">Quero esse modelo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="sites">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/barbearia_website.png" alt="Website Barbearia">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Website para Barbearia</h3>
+                                <p>Site com agendamento online e galeria de serviços</p>
+                                <a href="#contato" class="btn-view">Quero esse modelo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="sistemas">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/sistema_financeiro.svg" alt="Sistema Financeiro">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Sistema de Análise Financeira</h3>
+                                <p>Dashboard completo para análise de dados financeiros e relatórios</p>
+                                <a href="#contato" class="btn-view">Quero esse modelo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="sistemas">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/sistema_vendas.svg" alt="Sistema de Vendas">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Sistema de Acompanhamento de Vendas</h3>
+                                <p>Plataforma para gestão e análise de vendas em tempo real</p>
+                                <a href="#contato" class="btn-view">Quero esse modelo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="sistemas">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio/sistema_consultorio.svg" alt="Sistema para Consultórios">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Sistema para Gestão de Consultórios</h3>
+                                <p>Software completo para agendamento, prontuários e faturamento</p>
+                                <a href="#contato" class="btn-view">Quero esse modelo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2>Sobre a ZettaByte</h2>
+                        <p>Excelência em tecnologia e inovação</p>
+                    </div>
+                    <p>A ZettaByte é uma empresa de Tecnologia da Informação especializada no desenvolvimento de sites e sistemas personalizados para empresas de todos os portes.</p>
+                    <p>Nossa missão é transformar ideias em soluções digitais inovadoras, ajudando nossos clientes a alcançarem seus objetivos de negócio através da tecnologia.</p>
+                    <p>Contamos com uma equipe de profissionais altamente qualificados e apaixonados por tecnologia, sempre em busca das melhores soluções para nossos clientes.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-text">Projetos Entregues</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-text">Clientes Satisfeitos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-text">Anos de Experiência</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/programming_team.png" alt="Equipe de Programação ZettaByte">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Estamos prontos para transformar sua ideia em realidade</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>R. Humberto Silvério, 628 - Pilar Velho - Ribeirão Pires - SP, 09404-560
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp" style="color: #0077b6;"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/5511972655408" target="_blank">(11) 97265-5408</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-mail</h3>
+                            <p>contato.zettabyte0@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Zetta.png" alt="ZettaByte Logo">
+                    <h2>ZettaByte</h2>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#">Desenvolvimento de Sites</a></li>
+                        <li><a href="#">Aplicações Web</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                        <li><a href="#">Marketing Digital</a></li>
+                        <li><a href="#">Consultoria em TI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Inscreva-se para receber novidades e promoções</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Seu E-mail" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ZettaByte. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#header" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
